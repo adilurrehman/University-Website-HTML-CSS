@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKz University - Register</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="../index.html" style="color:#fff; text-decoration: none; font-size: 24px; font-weight: bold;">
+                <i class="fa fa-graduation-cap"></i> AKz University
+            </a>
+            <div class="nav-links">
+               <ul>
+                   <li><a href="../index.html">HOME</a></li>
+                   <li><a href="About.html">ABOUT</a></li>
+                   <li><a href="courses.html">COURSES</a></li>
+                   <li><a href="faculty2.html">FACULTY</a></li>
+                   <li><a href="register.html">REGISTER</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+            </div>    
+        </nav>
+    </header>
+
+    <div class="subheader">
+        <h1>Admissions Registration</h1>
+        <p style="color: #fff;">Take the first step toward a bright future.</p>
+    </div>
+
+    <section>
+        <div class="form-container">
+            <h2 style="color: #003366; text-align: center; margin-bottom: 20px;">Registration Form</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label>Full Name:</label>
+                    <input type="text" class="form-control" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email Address:</label>
+                    <input type="email" class="form-control" placeholder="example@domain.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Program of Interest:</label>
+                    <select class="form-control" required>
+                        <option value="">Select a Program</option>
+                        <option value="cs">Computer Science</option>
+                        <option value="me">Mechanical Engineering</option>
+                        <option value="ee">Electrical Engineering</option>
+                        <option value="ime">Industrial Engineering</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div style="display: flex; gap: 15px;">
+                        <label style="font-weight: normal;"><input type="radio" name="gender" value="Male"> Male</label>
+                        <label style="font-weight: normal;"><input type="radio" name="gender" value="Female"> Female</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn-submit">Submit Registration</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h4>AKz University</h4>
+        <div class="social-icons">
+            <i class="fa-solid fa-building-columns"></i>
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p>A beacon of academic excellence, fostering innovation and knowledge in the realm of engineering and technology.<br>&copy; 2026 AKz University. All rights reserved.</p>
+    </footer>
+</body>
+</html>
